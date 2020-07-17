@@ -1,3 +1,4 @@
+/*-------------------------------MAIN ELEMENTS-------------------------------*/
 body {
   background-color: #000000;
   font-family: 'Varta', sans-serif;
@@ -5,8 +6,33 @@ body {
   padding: 0;
 }
 
+h1, h2 {
+  color: #e4e3e3;
+  font-family: 'Dancing Script', cursive;
+  font-size: 4rem;
+  text-align: center;
+  text-transform: lowercase;
+  margin: 1.25rem auto 1.25rem auto;
+}
+
+p {
+  color: #f0ece3;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  margin: auto 15% auto 15%;
+  padding: 1.25rem;
+  text-align: center;
+}
+
+footer {
+  background-color: #84a9ac;
+  height: 5rem;
+}
+
+/*-------------------------------CLASS SELECTORS-------------------------------*/
+
 .nav {
-  background-color: #2F5C57;
+  background-color: #84a9ac;
   height: 5rem;
 }
 
@@ -39,24 +65,6 @@ body {
   width: 20rem;
 }
 
-h1, h2 {
-  color: #FA4C80;
-  font-family: 'Dancing Script', cursive;
-  font-size: 4rem;
-  text-align: center;
-  text-transform: lowercase;
-  margin: 1.25rem auto 1.25rem auto;
-}
-
-p {
-  color: #f0ece3;
-  font-size: 1.5rem;
-  line-height: 2rem;
-  margin: auto 15% auto 15%;
-  padding: 1.25rem;
-  text-align: center;
-}
-
 .work-image-main {
   border-radius: 3rem;
   display: block;
@@ -84,7 +92,7 @@ p {
 }
 
 .foot {
-  font-size: .7rem;
+  font-size: 1rem;
   text-align: center;
-  margin: 0 auto 0 auto;
+  margin: auto;
 }

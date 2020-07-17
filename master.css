@@ -1,16 +1,16 @@
-body  {
-  background-color: #f0ece3;
+body {
+  background-color: #000000;
   font-family: 'Varta', sans-serif;
   margin: 0;
   padding: 0;
 }
 
-.nav  {
-  background-color: #596e79;
+.nav {
+  background-color: #2F5C57;
   height: 5rem;
 }
 
-.logo  {
+.logo {
   display: inline;
   height: auto;
   width: 3rem;
@@ -18,21 +18,21 @@ body  {
   margin: 1rem auto 0 1rem;
 }
 
-.social  {
+.social {
   display: inline;
   position: absolute;
   right: 1.25rem;
   margin: 1.5rem 1rem 0 auto;
 }
 
-.social-icon  {
+.social-icon {
   height: auto;
   width: 2rem;
   display: inline;
   padding: 0 .3rem 0 .3rem;
 }
 
-.profile-picture  {
+.profile-picture {
   display: block;
   height: auto;
   margin: 1.25rem auto 0 auto;
@@ -40,19 +40,24 @@ body  {
 }
 
 h1, h2 {
+  color: #FA4C80;
   font-family: 'Dancing Script', cursive;
+  font-size: 4rem;
   text-align: center;
   text-transform: lowercase;
   margin: 1.25rem auto 1.25rem auto;
 }
 
 p {
+  color: #f0ece3;
+  font-size: 1.5rem;
   line-height: 2rem;
   margin: auto 15% auto 15%;
   padding: 1.25rem;
+  text-align: center;
 }
 
-.work-image-main  {
+.work-image-main {
   border-radius: 3rem;
   display: block;
   height: auto;
@@ -61,11 +66,11 @@ p {
   padding: 1rem;
 }
 
-.work-image-main:hover  {
+.work-image-main:hover {
   opacity: 40%;
 }
 
-.work-image-side  {
+.work-image-side {
   border-radius: 3rem;
   display: block;
   height: auto;
@@ -74,7 +79,7 @@ p {
   padding: 1rem;
 }
 
-.work-image-side:hover  {
+.work-image-side:hover {
   opacity: 40%;
 }
 

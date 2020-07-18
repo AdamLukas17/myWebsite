@@ -36,20 +36,13 @@ footer {
   width: 20rem;
 }
 
-.work-image-main-left {
+.work-image-main {
   border-radius: 3rem;
   display: block;
   height: auto;
   width: 75%;
   margin: auto;
-}
-
-.work-image-main-right {
-  border-radius: 3rem;
-  display: block;
-  height: auto;
-  width: 75%;
-  margin: auto;
+  padding: 0 0 1rem 0;
 }
 
 .work-image-side {
@@ -58,6 +51,7 @@ footer {
   height: auto;
   width: 75%;
   margin: 0 auto 0 auto;
+  padding: 0 0 1rem 0;
 }
 
 .foot {

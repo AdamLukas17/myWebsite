@@ -36,9 +36,18 @@ footer {
   width: 20rem;
 }
 
-.work-image-main {
-  border-radius: 1rem;
-  width: 20rem;;
+.work-image-main-left {
+  width: 25rem;
+  display: block;
+  margin: auto 0 auto auto;
+  padding: 1rem 0 1rem 0;
+}
+
+.work-image-main-right {
+  width: 25rem;
+  display: block;
+  margin: auto auto auto 0;
+  padding: 1rem 0 1rem 0;
 }
 
 .work-image-side {

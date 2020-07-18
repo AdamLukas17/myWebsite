@@ -25,7 +25,8 @@ p {
 
 footer {
   background-color: #84a9ac;
-  height: 5rem;
+  margin: 0 auto 0 auto;
+  padding: 0;
 }
 
 /*-------------------------------CLASS SELECTORS-------------------------------*/
@@ -57,5 +58,4 @@ footer {
 .foot {
   font-size: 1rem;
   text-align: center;
-  margin: auto;
 }

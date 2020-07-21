@@ -14,10 +14,8 @@ h1, h2 {
   text-transform: lowercase;
 }
 
-/*color: #f0ece3;*/
-
 p {
-  color: #1A3240;
+  color: #000000;
   font-size: 1.2rem;
   line-height: 1.5;
   margin: auto 15% auto 15%;
@@ -37,6 +35,10 @@ footer {
   width: 20rem;
 }
 
+.nav-link:hover {
+  color: #ffffff;
+}
+
 .work-image-main {
   display: block;
   height: auto;
@@ -46,7 +48,7 @@ footer {
 }
 
 .foot {
-  color: #f0ece3;
+  color: #ffffff;
   font-size: 1rem;
   text-align: center;
 }

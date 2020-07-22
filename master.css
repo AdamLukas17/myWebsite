@@ -24,7 +24,7 @@ p {
 }
 
 footer {
-  background-color: #204051;
+  background-color: #FBFEFF;
 }
 
 /*-------------------------------CLASS SELECTORS-------------------------------*/
@@ -48,7 +48,7 @@ footer {
 }
 
 .foot {
-  color: #ffffff;
+  color: #000000;
   font-size: 1rem;
   text-align: center;
 }

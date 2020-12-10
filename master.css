@@ -14,6 +14,10 @@ h1, h2 {
   text-transform: lowercase;
 }
 
+span {
+  color: #9C415F;
+}
+
 p {
   color: #000000;
   font-size: 1.2rem;
@@ -22,6 +26,11 @@ p {
   padding: 1.25rem;
   display: block;
   text-align: left;
+}
+
+a:hover {
+font-weight: bold;
+text-decoration: none;
 }
 
 footer {
@@ -37,11 +46,7 @@ footer {
 }
 
 .nav-link:hover {
-  color: #ffffff;
-}
-
-.block2  {
-  background-color: #FFFFFF;
+  color: #9C415F;
 }
 
 .work-image-main {

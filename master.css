@@ -1,14 +1,14 @@
 /*-------------------------------MAIN ELEMENTS-------------------------------*/
 body {
   background-color: #FBFEFF;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Space Mono', monospace;
   margin: 0;
   padding: 0;
 }
 
 h1, h2 {
   color: #9C415F;
-  font-family: 'Abril Fatface', cursive;
+  font-family: font-family: 'Space Mono', monospace;
   font-size: 4rem;
   text-align: center;
   text-transform: lowercase;

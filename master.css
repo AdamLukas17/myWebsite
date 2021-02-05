@@ -1,6 +1,7 @@
 /*-------------------------------MAIN ELEMENTS-------------------------------*/
 body {
-  background-color: #FFFFFF;
+  background-color: none;
+  background-image: linear-gradient(to bottom right,#73B5D1, #D18894);
   font-family: 'Space Mono', monospace;
   margin: 0;
   padding: 0;
@@ -34,7 +35,7 @@ text-decoration: none;
 }
 
 footer {
-  background-color: #FFFFFF;
+  background-color: none;
 }
 
 /*-------------------------------CLASS SELECTORS-------------------------------*/
@@ -43,6 +44,10 @@ footer {
   margin: 0 auto 0 auto;
   padding: 30px;
   width: 17rem;
+}
+
+.content {
+ 
 }
 
 .nav-link:hover {
@@ -55,6 +60,10 @@ footer {
   margin: auto;
   width: 80%;
   padding: 1rem 0 1rem 0;
+}
+
+.whiteSpace {
+  padding: 25%;
 }
 
 .foot {

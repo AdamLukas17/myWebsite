@@ -1,7 +1,6 @@
 /*-------------------------------MAIN ELEMENTS-------------------------------*/
 body {
-  background-color: none;
-  background-image: linear-gradient(to bottom right,#73B5D1, #D18894);
+  background-color: #454E52;
   font-family: 'Space Mono', monospace;
   margin: 0;
   padding: 0;

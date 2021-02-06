@@ -1,6 +1,6 @@
 /*-------------------------------MAIN ELEMENTS-------------------------------*/
 body {
-  background-color: #454E52;
+  background-color: #000000;
   font-family: 'Space Mono', monospace;
   margin: 0;
   padding: 0;
@@ -45,10 +45,6 @@ footer {
   width: 17rem;
 }
 
-.content {
- 
-}
-
 .nav-link:hover {
   color: #9C415F;
 }
@@ -61,8 +57,9 @@ footer {
   padding: 1rem 0 1rem 0;
 }
 
-.whiteSpace {
-  padding: 25%;
+.whiteBox {
+  margin: 25%;
+  padding: 2em;
 }
 
 .foot {

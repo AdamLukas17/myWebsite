@@ -61,7 +61,7 @@ footer {
 .whiteBox {
   margin: none;
   padding: 2em;
-  display: block;
+  display: inline-block;
 }
 
 .foot {

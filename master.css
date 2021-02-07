@@ -1,6 +1,6 @@
 /*-------------------------------MAIN ELEMENTS-------------------------------*/
 body {
-  background-color: #000000;
+  background-color: #FFFFFF;
   font-family: 'Space Mono', monospace;
   margin: 0;
   padding: 0;
@@ -38,6 +38,10 @@ footer {
 }
 
 /*-------------------------------CLASS SELECTORS-------------------------------*/
+#coolsuppy {
+  background-color: #000000 
+}
+
 .profile-picture {
   display: block;
   margin: 0 auto 0 auto;
@@ -58,7 +62,7 @@ footer {
 }
 
 .whiteBox {
-  margin: 25%;
+  margin: 20% 10% 20% 10%;
   padding: 2em;
 }
 

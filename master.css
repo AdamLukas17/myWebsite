@@ -1,34 +1,74 @@
 body {
   background-color: #F8F9FA;
+  font-family: 'Space Mono', monospace;
+}
+
+h5 {
+  text-align: center;
+  margin: auto;
 }
 
 .accent-color {
-  color: darkolivegreen;
+  color: darkslategray;
+}
+
+.as-seen {
+
 }
 
 .bio-text {
   justify-content: left;
+  margin: auto;
   padding: none;
   text-align: left;
 }
 
 .btn {
-  background-color: darkolivegreen;
+  background-color: darkslategray;
   color: white;
+  margin: 2rem 0;
+  padding: 1rem;
+}
+
+.container-1-bg {
+  background-color: darkslategray;
+  display: flex;
+  margin: none;
+  padding: 1rem;
+}
+
+.container-2-bg {
+  background-color: lightgray;
+  display: flex;
+  margin: none;
+  padding: 2rem;
 }
 
 .main-bio {
-  padding: 1rem 1rem 4rem 1rem;
+  padding: none;
+  margin: 8%;
+}
+
+.main-col {
+  padding: 1rem;
+}
+
+.navbar {
+  margin: 0 8% 0;
+}
+
+.navbar-brand {
+  margin: none;
 }
 
 .profile-img {
   margin: auto;
-  width: 53%;
+  width: 50%;
 }
 
-.container-bg {
-  background-color: darkolivegreen;
-  display: flex;
-  margin: none;
-  padding: 3rem;
+.work-imgs {
+  margin: auto;
+  padding: none;
+  width: 8rem;
+  height: auto;
 }

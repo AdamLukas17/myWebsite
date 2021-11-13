@@ -1,12 +1,11 @@
-h2 {
-  text-align: left;
-}
-
 body {
   background-color: #F8F9FA;
   margin: none;
   padding: none;
-  display: inline;
+}
+
+h2 {
+  text-align: left;
 }
 
 p {
@@ -18,22 +17,25 @@ p {
 }
 
 .bio-text {
-  text-align: center;
   justify-content: center;
   padding: 1rem 3rem 1rem 3rem;
+  text-align: center;
 }
 
 .btn {
   background-color: darkolivegreen;
   color: white;
-  margin: none;
-  padding: 1rem 3rem;
-  display: inline;
-}
-
-.main-body {
   display: block;
-  width: auto;
-  vertical-align: auto;
+  padding: 1rem 3rem;
 }
 
+.profile-img {
+  display: block;
+  margin: auto;
+  width: 50%;
+}
+
+.profile-img-bg {
+  background-color: darkolivegreen;
+  width: 100%;
+}

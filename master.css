@@ -1,14 +1,8 @@
 body {
   background-color: #F8F9FA;
-  margin: none;
-  padding: none;
 }
 
 h2 {
-  text-align: left;
-}
-
-p {
   text-align: left;
 }
 
@@ -26,16 +20,22 @@ p {
   background-color: darkolivegreen;
   color: white;
   display: block;
-  padding: 1rem 3rem;
+  padding: 1rem 3rem 1rem;
+}
+
+.main-bio {
+  padding: 5rem;
 }
 
 .profile-img {
   display: block;
   margin: auto;
   width: 50%;
+  height: auto
 }
 
 .profile-img-bg {
   background-color: darkolivegreen;
+  display: block;
   width: 100%;
 }

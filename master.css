@@ -4,7 +4,6 @@ body {
 }
 
 h5 {
-  text-align: center;
   margin: auto;
 }
 
@@ -12,8 +11,8 @@ h5 {
   color: darkslategray;
 }
 
-.as-seen {
-
+.align {
+  text-align: left;
 }
 
 .bio-text {

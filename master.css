@@ -1,4 +1,39 @@
-.main-body {
-  border-color: chocolate;
-  border-radius: 2px;
+h2 {
+  text-align: left;
 }
+
+body {
+  background-color: #F8F9FA;
+  margin: none;
+  padding: none;
+  display: inline;
+}
+
+p {
+  text-align: left;
+}
+
+.accent-color {
+  color: darkolivegreen;
+}
+
+.bio-text {
+  text-align: center;
+  justify-content: center;
+  padding: 1rem 3rem 1rem 3rem;
+}
+
+.btn {
+  background-color: darkolivegreen;
+  color: white;
+  margin: none;
+  padding: 1rem 3rem;
+  display: inline;
+}
+
+.main-body {
+  display: block;
+  width: auto;
+  vertical-align: auto;
+}
+

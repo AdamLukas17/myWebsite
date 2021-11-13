@@ -13,11 +13,16 @@
 
 <body>
 
-  <!-- navbar stuff --> 
+<!-- column_1 includes headers, bios, and contact button-->
 
-<nav class="navbar navbar-expand-md navbar-light bg-light">
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-lg-6 main-bio">
+
+ <!-- navbar-begins --> 
+ <nav class="navbar navbar-expand-md navbar-light bg-none w-auto">
   <a class="navbar-brand" href="#">
-    <img src="img\logoGray.png" width="30" height="30" alt="">
+    <img src="img\logoGray.png" width="30" height="30" alt="Lukas logo in gray">
   </a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -32,26 +37,22 @@
   </div>
 </nav>
 
-<!-- Main Bio-->
-
-<div class="container-fluid">
-  <div class="row">
-    <div class="col-lg-6 main-bio">
+<!-- bio-begins --> 
         <h2><strong>Adam is making the world a little cooler with</strong></h2>
         <h2 class ="accent-color"><strong>Audio & Code</strong></h2>
         <p class = "bio-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis, pariatur ut. Ratione reiciendis voluptas obcaecati asperiores rem eveniet, rerum impedit doloribus autem ducimus pariatur iusto mollitia vel nihil corporis odio.</p>
-  
-      <div class = "d-flex justify-content-center">
-        <button type="button" class="btn btn-outline-* btn-lg">Contact</button>
+      <div class = "d-flex justify-content-left">
+        <button type="button" class="btn btn-outline-* btn-lg btn-block">Contact</button>
       </div>
     </div>
 
-    <div class="col-lg-6">
-      <div class = "container profile-img-bg">
-        <img src="img/ProfilePicture[Private2].png" class = "profile-img" width= "auto" height = "auto" alt="profile-picture">
+<!-- column_2 includes only profile picture -->
+    <div class="col-lg-6 container-bg">
+        <img src="img/ProfilePicture[Private2].png" class = "profile-img" alt="profile-picture">
     </div>
-    </div>
+
   </div>
+
 </div>
 
 

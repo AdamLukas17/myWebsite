@@ -2,40 +2,33 @@ body {
   background-color: #F8F9FA;
 }
 
-h2 {
-  text-align: left;
-}
-
 .accent-color {
   color: darkolivegreen;
 }
 
 .bio-text {
-  justify-content: center;
-  padding: 1rem 3rem 1rem 3rem;
-  text-align: center;
+  justify-content: left;
+  padding: none;
+  text-align: left;
 }
 
 .btn {
   background-color: darkolivegreen;
   color: white;
-  display: block;
-  padding: 1rem 3rem 1rem;
 }
 
 .main-bio {
-  padding: 5rem;
+  padding: 1rem 1rem 4rem 1rem;
 }
 
 .profile-img {
-  display: block;
   margin: auto;
-  width: 50%;
-  height: auto
+  width: 53%;
 }
 
-.profile-img-bg {
+.container-bg {
   background-color: darkolivegreen;
-  display: block;
-  width: 100%;
+  display: flex;
+  margin: none;
+  padding: 3rem;
 }

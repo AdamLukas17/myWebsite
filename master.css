@@ -1,6 +1,7 @@
 body {
-  background-color: #F8F9FA;
+  background-color: #A3B2BF;
   font-family: 'Space Mono', monospace;
+  color: #0D0D0D;
 }
 
 h5 {
@@ -13,7 +14,7 @@ ul {
 }
 
 .accent-color {
-  color: darkslategray;
+  color: #1F438C;
 }
 
 
@@ -25,35 +26,35 @@ ul {
 }
 
 .btn {
-  background-color: darkslategray;
+  background-color: #1F438C;
   color: white;
   margin: 0.3rem 0;
   padding: 1rem;
 }
 
 .container-1-bg {
-  background-color: darkslategray;
+  background-color: #1F438C;
   display: flex;
   margin: none;
   padding: 1rem 0 0 0;
 }
 
 .container-2-bg {
-  background-color: lightgray;
+  background-color: #A3B2BF;
   display: flex;
   margin: auto;
-  padding: 2rem 0 3rem 0;
+  padding: 2rem 0 2rem 0;
 }
 
 .container-3-bg {
-  background-color: lightsalmon;
+  background-color: #A3B2BF;
   display: flex;
   margin: auto;
   padding: 2rem 0 2rem 0;
 }
 
 .container-4-bg {
-  background-color: lightsalmon;
+  background-color: #A3B2BF;
   display: flex;
   padding: 2rem 0 3rem 0;
 }
@@ -88,7 +89,6 @@ ul {
 }
 
 .relative {
-  border: 3px solid #73AD21;
   margin: 3rem;
   position: relative;
 }
@@ -110,4 +110,5 @@ ul {
   padding: none;
   width: auto;
   height:2.2rem;
+  filter: grayscale(100%);
 }

@@ -8,6 +8,10 @@ h5 {
   padding: none;
 }
 
+ul {
+  list-style-type: none;
+}
+
 .accent-color {
   color: darkslategray;
 }
@@ -38,7 +42,7 @@ h5 {
   background-color: lightgray;
   display: flex;
   margin: auto;
-  padding: 2rem 0 2rem 0;
+  padding: 2rem 0 3rem 0;
 }
 
 .container-3-bg {
@@ -51,8 +55,14 @@ h5 {
 .container-4-bg {
   background-color: lightsalmon;
   display: flex;
-  margin: none;
-  padding: 2rem 0 2rem 0;
+  padding: 2rem 0 3rem 0;
+}
+
+.icons {
+  margin: auto;
+  padding: none;
+  height: 2rem;
+  width: auto;
 }
 
 .main-bio {
@@ -77,16 +87,22 @@ h5 {
   width: 50%;
 }
 
+.relative {
+  border: 3px solid #73AD21;
+  margin: 3rem;
+  position: relative;
+}
+
 .skills {
-  padding: none;
-  margin: 8%;
+  padding: 2.4rem;
+  margin: auto;
 }
 
 .work-imgs-curr {
   margin: auto;
   padding: none;
   width: auto;
-  height: 5rem;
+  height: 4rem;
 }
 
 .work-imgs-past {

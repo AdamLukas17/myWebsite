@@ -5,15 +5,13 @@ body {
 
 h5 {
   margin: auto;
+  padding: none;
 }
 
 .accent-color {
   color: darkslategray;
 }
 
-.align {
-  text-align: left;
-}
 
 .bio-text {
   justify-content: left;
@@ -43,6 +41,20 @@ h5 {
   padding: 2rem;
 }
 
+.container-3-bg {
+  background-color: darkslategray;
+  display: flex;
+  margin: none;
+  padding: 2rem;
+}
+
+.container-4-bg {
+  background-color: darkslategray;
+  display: flex;
+  margin: none;
+  padding: 2rem 0 5rem 0;
+}
+
 .main-bio {
   padding: none;
   margin: 8%;
@@ -65,9 +77,17 @@ h5 {
   width: 50%;
 }
 
-.work-imgs {
+.work-imgs-curr {
   margin: auto;
   padding: none;
-  width: 8rem;
-  height: auto;
+  width: auto;
+  height: 4rem;
+}
+
+.work-imgs-past {
+  display: inline;
+  margin: auto;
+  padding: none;
+  width: auto;
+  height: 2rem;
 }

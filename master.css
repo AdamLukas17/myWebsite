@@ -1,20 +1,21 @@
 body {
-  background-color: #A3B2BF;
+  background-color: #ffffff;
   font-family: 'Space Mono', monospace;
-  color: #0D0D0D;
-}
-
-h5 {
-  margin: auto;
+  color: #2b2b2b;
+  margin: none;
   padding: none;
 }
 
-ul {
-  list-style-type: none;
+img {
+  margin: auto;
+  padding: 1rem 0 1rem 0;
+  width: 20%;
 }
 
 .accent-color {
-  color: #1F438C;
+  color: #2b2b2b;
+  margin: auto;
+  padding: 1rem 0 1rem 0;
 }
 
 
@@ -26,89 +27,13 @@ ul {
 }
 
 .btn {
-  background-color: #1F438C;
+  background-color: #95afa1;
   color: white;
   margin: 0.3rem 0;
   padding: 1rem;
 }
 
-.container-1-bg {
-  background-color: #1F438C;
-  display: flex;
-  margin: none;
-  padding: 1rem 0 0 0;
-}
-
-.container-2-bg {
-  background-color: #A3B2BF;
-  display: flex;
-  margin: auto;
-  padding: 2rem 0 2rem 0;
-}
-
-.container-3-bg {
-  background-color: #A3B2BF;
-  display: flex;
-  margin: auto;
-  padding: 2rem 0 2rem 0;
-}
-
-.container-4-bg {
-  background-color: #A3B2BF;
-  display: flex;
-  padding: 2rem 0 3rem 0;
-}
-
-.icons {
-  margin: auto;
-  padding: none;
-  height: 2rem;
-  width: auto;
-}
-
 .main-bio {
-  padding: none;
-  margin: 8%;
-}
-
-.main-col {
   padding: 1rem;
-}
-
-.navbar {
-  margin: 0 8% 0;
-}
-
-.navbar-brand {
-  margin: none;
-}
-
-.profile-img {
-  margin: auto;
-  width: 50%;
-}
-
-.relative {
-  margin: 3rem;
-  position: relative;
-}
-
-.skills {
-  padding: 2.4rem;
-  margin: auto;
-}
-
-.work-imgs-curr {
-  margin: auto;
-  padding: none;
-  width: auto;
-  height: 4rem;
-}
-
-.work-imgs-past {
-  margin: auto;
-  padding: none;
-  width: auto;
-  height:2.2rem;
-  filter: grayscale(100%);
+  margin: 5%;
 }

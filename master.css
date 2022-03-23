@@ -1,13 +1,13 @@
 body {
   background-color: #ffffff;
-  font-family: 'Space Mono', monospace;
+  font-family: 'Outfit', sans-serif;
   color: #2b2b2b;
   margin: none;
   padding: none;
 }
 
 img {
-  margin: auto;
+  margin: -1rem;
   padding: 1rem 0 1rem 0;
   width: 20%;
 }
@@ -35,5 +35,4 @@ img {
 
 .main-bio {
   padding: 1rem;
-  margin: 5%;
 }
